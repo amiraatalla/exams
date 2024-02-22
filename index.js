@@ -15,6 +15,7 @@ if (convertedMsg.length < 40) {
     let counter = 0;
     
     for (let x in convertedMsg) {
+
         if(convertedMsg[x] =="A" || convertedMsg[x] =="D" ||
         convertedMsg[x] =="O" || convertedMsg[x] =="P" ||
         convertedMsg[x] =="Q" || convertedMsg[x] =="R")
@@ -22,6 +23,9 @@ if (convertedMsg.length < 40) {
         else if(convertedMsg[x] =="B")
         counter +=2;
     }
+        // alert(convertedMsg);
+        // alert(counter);
+        // console.log(convertedMsg );
         console.log(counter);
 
 }
